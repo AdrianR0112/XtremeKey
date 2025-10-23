@@ -76,7 +76,7 @@ export function ProductCatalog() {
 
   const handlePurchase = (productName: string) => {
     const message = `Hola! Estoy interesado en adquirir una licencia de ${productName}`
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/59399270656590?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 

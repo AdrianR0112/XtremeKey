@@ -19,7 +19,7 @@ export function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const whatsappMessage = `Hola! Soy ${formData.name}. ${formData.message}. Mi email es: ${formData.email}`
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(whatsappMessage)}`
+    const whatsappUrl = `https://wa.me/59399270656590?text=${encodeURIComponent(whatsappMessage)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -103,7 +103,7 @@ export function ContactSection() {
                   <Button
                     variant="outline"
                     className="border-2 bg-transparent"
-                    onClick={() => window.open("https://wa.me/1234567890", "_blank")}
+                    onClick={() => window.open("https://wa.me/59399270656590", "_blank")}
                   >
                     Abrir WhatsApp
                   </Button>
