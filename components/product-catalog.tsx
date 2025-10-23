@@ -13,7 +13,7 @@ export function ProductCatalog() {
         "Suite completa con Photoshop, Illustrator, Premiere Pro, After Effects y más de 20 aplicaciones creativas.",
       duration: "Anual",
       price: "$299",
-      image: "/adobe-creative-cloud-logo.png",
+      image: "./adobe-creative-cloud-logo.png",
       popular: true,
     },
     {
@@ -21,7 +21,7 @@ export function ProductCatalog() {
       description: "Software profesional de diseño CAD 2D y 3D para arquitectura, ingeniería y construcción.",
       duration: "Anual",
       price: "$399",
-      image: "/autodesk-autocad-logo.jpg",
+      image: "./autodesk-autocad-logo.jpg",
       popular: false,
     },
     {
@@ -29,7 +29,7 @@ export function ProductCatalog() {
       description: "Herramienta de diseño gráfico con plantillas premium, elementos y funciones avanzadas.",
       duration: "Anual",
       price: "$89",
-      image: "/canva-pro-logo.png",
+      image: "./canva-pro-logo.png",
       popular: true,
     },
     {
@@ -37,7 +37,7 @@ export function ProductCatalog() {
       description: "Editor de video profesional con efectos avanzados, transiciones y herramientas de IA.",
       duration: "Anual",
       price: "$79",
-      image: "/capcut-pro-logo.jpg",
+      image: "./capcut-pro-logo.jpg",
       popular: false,
     },
     {
@@ -45,7 +45,7 @@ export function ProductCatalog() {
       description: "Acceso ilimitado a millones de recursos: plantillas, fotos, videos, música y más.",
       duration: "Anual",
       price: "$199",
-      image: "/envato-elements-logo.jpg",
+      image: "./envato-elements-logo.jpg",
       popular: true,
     },
     {
@@ -53,7 +53,7 @@ export function ProductCatalog() {
       description: "Descarga ilimitada de vectores, fotos, PSD y recursos gráficos de alta calidad.",
       duration: "Anual",
       price: "$99",
-      image: "/freepik-premium-logo.jpg",
+      image: "./freepik-premium-logo.jpg",
       popular: false,
     },
     {
@@ -61,7 +61,7 @@ export function ProductCatalog() {
       description: "Suite completa con Word, Excel, PowerPoint, Outlook y 1TB de almacenamiento en OneDrive.",
       duration: "Anual",
       price: "$69",
-      image: "/microsoft-office-365-logo.png",
+      image: "./microsoft-office-365-logo.png",
       popular: false,
     },
     {
@@ -69,7 +69,7 @@ export function ProductCatalog() {
       description: "Software profesional de diseño gráfico vectorial y edición de fotos.",
       duration: "Anual",
       price: "$249",
-      image: "/coreldraw-logo.jpg",
+      image: "./coreldraw-logo.jpg",
       popular: false,
     },
   ]

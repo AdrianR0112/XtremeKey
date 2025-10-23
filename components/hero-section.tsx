@@ -60,7 +60,7 @@ export function HeroSection() {
           <div className="mt-16 relative">
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10" />
             <img
-              src="/modern-software-technology-digital-workspace-with-.jpg"
+              src="./modern-software-technology-digital-workspace-with-.jpg"
               alt="Software y tecnología"
               className="rounded-2xl shadow-2xl border border-border w-full"
             />

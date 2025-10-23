@@ -9,7 +9,7 @@ export function TestimonialsSection() {
       content:
         "Excelente servicio! Compré mi licencia de Adobe Creative Cloud y la recibí en menos de 5 minutos. Totalmente recomendado.",
       rating: 5,
-      avatar: "/professional-woman-avatar.png",
+      avatar: "./professional-woman-avatar.png",
     },
     {
       name: "Carlos Ramírez",
@@ -17,7 +17,7 @@ export function TestimonialsSection() {
       content:
         "La mejor opción para adquirir licencias de Autodesk. Precios justos y atención al cliente excepcional. Ya llevo 3 años comprando aquí.",
       rating: 5,
-      avatar: "/professional-man-avatar.png",
+      avatar: "./professional-man-avatar.png",
     },
     {
       name: "Ana Martínez",
@@ -25,7 +25,7 @@ export function TestimonialsSection() {
       content:
         "Increíble experiencia. Necesitaba CapCut Pro urgentemente y el equipo de XtremeKey me ayudó en todo el proceso. 100% confiable.",
       rating: 5,
-      avatar: "/young-woman-creator-avatar.jpg",
+      avatar: "./young-woman-creator-avatar.jpg",
     },
     {
       name: "Luis Fernández",
@@ -33,7 +33,7 @@ export function TestimonialsSection() {
       content:
         "Compré licencias de Office 365 para toda mi empresa. El proceso fue sencillo y el soporte post-venta es excelente.",
       rating: 5,
-      avatar: "/business-man-avatar.png",
+      avatar: "./business-man-avatar.png",
     },
     {
       name: "Sofia Torres",
@@ -41,7 +41,7 @@ export function TestimonialsSection() {
       content:
         "Llevo años buscando un proveedor confiable de licencias y finalmente lo encontré. Precios accesibles y licencias 100% originales.",
       rating: 5,
-      avatar: "/photographer-woman-avatar.jpg",
+      avatar: "./photographer-woman-avatar.jpg",
     },
     {
       name: "Diego Morales",
@@ -49,7 +49,7 @@ export function TestimonialsSection() {
       content:
         "La atención personalizada marca la diferencia. Me asesoraron para elegir la mejor licencia según mis necesidades. Muy profesionales.",
       rating: 5,
-      avatar: "/video-editor-man-avatar.jpg",
+      avatar: "./video-editor-man-avatar.jpg",
     },
   ]
 
