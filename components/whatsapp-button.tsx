@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function WhatsAppButton() {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/59399270656590?text=Hola! Necesito información sobre las licencias", "_blank")
+    window.open("https://wa.me/593992706565?text=Hola! Necesito información sobre las licencias", "_blank")
   }
 
   return (
