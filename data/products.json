@@ -1,0 +1,255 @@
+{
+  "categories": [
+    {
+      "id": "adobe-suite",
+      "name": "Adobe Creative Cloud",
+      "description": "Producto estrella - Más de 20 aplicaciones (Photoshop, Illustrator, Premiere Pro, After Effects, Lightroom, Acrobat y más)",
+      "featured": true,
+      "hasVariablePricing": true,
+      "products": [
+        {
+          "id": "adobe-directo",
+          "name": "Adobe CC 2026 Directo",
+          "description": "100GB almacenamiento, 4000 créditos IA/mes. Pago directo en plataforma oficial. La suscripción mas estable.",
+          "image": "/adobe-creative-cloud-logo.png",
+          "popular": false,
+          "pricing": [
+            { "duration": "3 Meses", "price": 26 },
+            { "duration": "6 Meses", "price": 40 },
+            { "duration": "12 Meses", "price": 70 }
+          ]
+        },
+        {
+          "id": "adobe-premium",
+          "name": "Adobe CC 2026 Premium",
+          "description": "1TB almacenamiento, 4000 créditos IA/mes. Los perfiles se reemplazan cada 2-5 meses, funcionamiento poco afectado. Pregunte por el obsequio de primera compra.",
+          "image": "/adobe-creative-cloud-logo.png",
+          "popular": true,
+          "pricing": [
+            { "duration": "1 Mes", "price": 10 },
+            { "duration": "3 Meses", "price": 20 },
+            { "duration": "6 Meses", "price": 32 },
+            { "duration": "12 Meses", "price": 60 }
+          ]
+        },
+        {
+          "id": "adobe-economico",
+          "name": "Adobe CC 2026 Económico",
+          "description": "100GB almacenamiento, 1500 créditos IA/mes, Adobe Stock incluido. Los perfiles se reemplazan cada 20 días, funcionamiento poco afectado.",
+          "image": "/adobe-creative-cloud-logo.png",
+          "popular": false,
+          "pricing": [
+            { "duration": "1 Mes", "price": 6 },
+            { "duration": "3 Meses", "price": 14 },
+            { "duration": "6 Meses", "price": 26 },
+            { "duration": "12 Meses", "price": 42 }
+          ]
+        },
+        {
+          "id": "adobe-1app-1y",
+          "name": "Adobe 1 Aplicación",
+          "description": "Licencia de una aplicación individual de Adobe a tu elección (Photoshop, Illustrator, Premiere Pro, etc).",
+          "duration": "1 Mes",
+          "price": 4,
+          "image": "/adobe-creative-cloud-logo.png",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name": "Herramientas IA",
+      "description": "Acceso a las mejores herramientas de inteligencia artificial",
+      "featured": false,
+      "hasVariablePricing": true,
+      "products": [
+        {
+          "id": "chatgpt-1m",
+          "name": "ChatGPT",
+          "description": "Acceso a ChatGPT Plus con GPT-4 y todas las funciones avanzadas de inteligencia artificial.",
+          "duration": "1 Mes",
+          "price": 6,
+          "image": "/placeholder-logo.png",
+          "popular": true
+        },
+        {
+          "id": "gemini-pro-1y",
+          "name": "Gemini Pro",
+          "description": "Acceso completo a Google Gemini Pro con capacidades avanzadas de IA y análisis.",
+          "duration": "1 Año",
+          "price": 0,
+          "image": "/placeholder-logo.png",
+          "popular": false
+        },
+        {
+          "id": "perplexity-pro",
+          "name": "Perplexity Pro",
+          "description": "Motor de búsqueda con IA para respuestas precisas y verificadas.",
+          "image": "/placeholder-logo.png",
+          "popular": false,
+          "pricing": [
+            { "duration": "1 Mes", "price": 3 },
+            { "duration": "1 Año", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video-editing",
+      "name": "Edición de Video",
+      "description": "Software profesional para edición de video y contenido multimedia",
+      "featured": false,
+      "hasVariablePricing": true,
+      "products": [
+        {
+          "id": "capcut-pro",
+          "name": "CapCut PRO",
+          "description": "Cuenta original, sin APKs ni cracks. Editor de video profesional con efectos avanzados, transiciones y herramientas de IA. Disponible para Android, iOS, Mac y Windows.",
+          "image": "/capcut-pro-logo.jpg",
+          "popular": true,
+          "pricing": [
+            { "duration": "1 Mes", "price": 4.5 },
+            { "duration": "3 Meses", "price": 14 },
+            { "duration": "6 Meses", "price": 24 },
+            { "duration": "12 Meses", "price": 40 }
+          ]
+        },
+        {
+          "id": "filmora-14",
+          "name": "Filmora 14 + 2000 AI",
+          "description": "Editor de video intuitivo con más de 2000 créditos de IA para Windows y Mac.",
+          "duration": "Lifetime",
+          "price": 30,
+          "image": "/placeholder-logo.png",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "design-tools",
+      "name": "Diseño Gráfico",
+      "description": "Herramientas profesionales de diseño gráfico y vectorial",
+      "featured": false,
+      "products": [
+        {
+          "id": "canva-pro-1y",
+          "name": "Canva Pro",
+          "description": "Herramienta de diseño gráfico con plantillas premium, elementos y funciones avanzadas.",
+          "duration": "1 Año",
+          "price": 4,
+          "image": "/canva-pro-logo.png",
+          "popular": true
+        },
+        {
+          "id": "coreldraw-win-lifetime",
+          "name": "CorelDRAW 2024 Technical Suite",
+          "description": "Suite técnica de diseño profesional para Windows con licencia permanente.",
+          "duration": "Lifetime",
+          "price": 20,
+          "image": "/coreldraw-logo.jpg",
+          "popular": false
+        },
+        {
+          "id": "coreldraw-mac-lifetime",
+          "name": "CorelDRAW 2024 Graphics Suite",
+          "description": "Suite gráfica profesional para Mac con licencia permanente.",
+          "duration": "Lifetime",
+          "price": 20,
+          "image": "/coreldraw-logo.jpg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "cad-tools",
+      "name": "CAD y Arquitectura",
+      "description": "Software de diseño asistido por computadora para ingeniería y arquitectura",
+      "featured": false,
+      "hasVariablePricing": true,
+      "products": [
+        {
+          "id": "autodesk-suite",
+          "name": "Suite AutoDesk",
+          "description": "Acceso completo a todas las aplicaciones de AutoDesk incluyendo AutoCAD, Revit, 3ds Max y más.",
+          "image": "/autodesk-autocad-logo.jpg",
+          "popular": true,
+          "pricing": [
+            { "duration": "1 Año", "price": 15 },
+            { "duration": "6 Meses", "price": 5 } 
+          ]
+        },
+        {
+          "id": "autodesk-1app-1y",
+          "name": "Autodesk 1 Aplicación",
+          "description": "Licencia de una aplicación individual de AutoDesk a tu elección (AutoCAD, Revit, etc).",
+          "duration": "1 Año",
+          "price": 5,
+          "image": "/autodesk-autocad-logo.jpg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "office-productivity",
+      "name": "Productividad",
+      "description": "Suite de oficina y herramientas de productividad empresarial",
+      "featured": false,
+      "products": [
+        {
+          "id": "office365-personal-1y",
+          "name": "Office 365 Personal",
+          "description": "Suite completa con Word, Excel, PowerPoint, Outlook y 1TB de almacenamiento. La licencia se activa al correo personal.",
+          "duration": "1 Año",
+          "price": 12,
+          "image": "/microsoft-office-365-logo.png",
+          "popular": true
+        }
+      ]
+    },
+    {
+      "id": "stock-resources",
+      "name": "Paneles de Descargas",
+      "description": "Panel exclusivo de descargas - Rápido, seguro y sin cuentas compartidas. Acceso a recursos digitales premium",
+      "featured": false,
+      "hasVariablePricing": true,
+      "products": [
+        {
+          "id": "freepik-panel",
+          "name": "Freepik Premium",
+          "description": "Panel exclusivo con 30 descargas por día. Vectores, fotos, PSD y recursos gráficos de alta calidad.",
+          "image": "/freepik-premium-logo.jpg",
+          "popular": true,
+          "pricing": [
+            { "duration": "1 Mes", "price": 6 },
+            { "duration": "3 Meses", "price": 13 },
+            { "duration": "6 Meses", "price": 18 },
+            { "duration": "12 Meses", "price": 32 }
+          ]
+        },
+        {
+          "id": "envato-panel",
+          "name": "Envato Elements",
+          "description": "Panel exclusivo con 300 descargas por día. Millones de recursos: plantillas, fotos, videos, música y más.",
+          "image": "/envato-elements-logo.jpg",
+          "popular": true,
+          "pricing": [
+            { "duration": "1 Mes", "price": 6 },
+            { "duration": "3 Meses", "price": 13 },
+            { "duration": "6 Meses", "price": 18 },
+            { "duration": "12 Meses", "price": 32 }
+          ]
+        },
+        {
+          "id": "motionarray-panel",
+          "name": "Motion Array Premium",
+          "description": "Panel exclusivo con 50 descargas por día. Videos, plantillas, música y efectos para edición profesional.",
+          "image": "/placeholder-logo.png",
+          "popular": true,
+          "pricing": [
+            { "duration": "1 Mes", "price": 6 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 relative">
                 <Image
-                  src="./LogoXKey.png"
+                  src="./LogoXKey2.png"
                   alt="XtremeKey Logo"
                   width={40}
                   height={40}

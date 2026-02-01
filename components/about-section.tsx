@@ -1,5 +1,8 @@
-import { Shield, Zap, HeadphonesIcon } from "lucide-react"
+"use client"
+
+import { Shield, Zap, HeadphonesIcon, Users } from "lucide-react"
 import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 export function AboutSection() {
   const features = [
@@ -7,13 +10,13 @@ export function AboutSection() {
       icon: Shield,
       title: "Seguridad Garantizada",
       description:
-        "Todas nuestras licencias son 100% originales y verificadas directamente con los proveedores oficiales.",
+        "Contamos con licencias 100% originales y cientos de clientes satisfechos que respaldan nuestra credibilidad.",
     },
     {
       icon: Zap,
       title: "Entrega Inmediata",
       description:
-        "Recibe tu licencia en minutos. Proceso automatizado y eficiente para que empieces a crear de inmediato.",
+        "Recibe tu licencia en minutos para que empieces a crear de inmediato.",
     },
     {
       icon: HeadphonesIcon,
@@ -32,7 +35,7 @@ export function AboutSection() {
           </h2>
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
             En XtremeKey nos dedicamos a ofrecer licencias originales y accesibles para profesionales creativos y
-            empresas. Con años de experiencia en el mercado, garantizamos seguridad, rapidez y la mejor atención
+            empresas. Con más de 2 años de experiencia en el mercado, garantizamos seguridad, rapidez y la mejor atención
             personalizada.
           </p>
         </div>
@@ -50,6 +53,19 @@ export function AboutSection() {
               <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
             </Card>
           ))}
+        </div>
+
+        {/* Grupo de Clientes */}
+        <div className="mt-10 text-center">
+          <p className="text-muted-foreground mb-4">¿Quieres pedir referencias antes de comprar?</p>
+          <Button
+            variant="outline"
+            className="border-2 hover:bg-primary hover:text-primary-foreground"
+            onClick={() => window.open("https://chat.whatsapp.com/BPoJfZHYHAQEsTbHfcCwXY", "_blank")}
+          >
+            <Users className="w-4 h-4 mr-2" />
+            Unirse al Grupo de Clientes
+          </Button>
         </div>
       </div>
     </section>

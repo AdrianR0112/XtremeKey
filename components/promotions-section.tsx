@@ -3,30 +3,51 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Gift, Percent, Trophy } from "lucide-react"
+import { Gift, Percent, Trophy, Calendar } from "lucide-react"
+import { useState } from "react"
+import promotionsData from "@/data/promotions.json"
 
 export function PromotionsSection() {
+  const [showSorteoDate, setShowSorteoDate] = useState(false)
+
+  const handleWhatsApp = (message: string) => {
+    const whatsappUrl = `https://wa.me/593992706565?text=${encodeURIComponent(message)}`
+    window.open(whatsappUrl, "_blank")
+  }
+
   const promotions = [
     {
-      icon: Percent,
-      title: "20% OFF en tu primera compra",
-      description: "Obtén un descuento especial en tu primera licencia. Válido para todos los productos del catálogo.",
+      icon: Gift,
+      title: "Obsequio en tu primera compra",
+      description: "Recibe un regalo especial con tu primera licencia. ¡Pregunta por los detalles al realizar tu compra!",
       badge: "Nuevo Cliente",
       color: "from-primary to-accent",
-    },
-    {
-      icon: Gift,
-      title: "Sorteo Mensual de Licencias",
-      description: "Participa en nuestro sorteo mensual y gana licencias premium completamente gratis.",
-      badge: "Activo",
-      color: "from-accent to-primary",
+      buttonText: "Reclamar Obsequio",
+      action: () => handleWhatsApp("Hola! Quiero reclamar mi regalo por primera compra"),
     },
     {
       icon: Trophy,
+      title: "Sorteos para Clientes",
+      description: "Participa en nuestros sorteos exclusivos y gana licencias premium completamente gratis.",
+      badge: "Activo",
+      color: "from-accent to-primary",
+      buttonText: showSorteoDate ? "Ver Fecha" : "Descubrir Fecha",
+      action: () => setShowSorteoDate(true),
+      extraContent: showSorteoDate ? (
+        <div className="flex items-center gap-2 mb-4 p-3 rounded-lg bg-primary/10 border border-primary/20">
+          <Calendar className="w-5 h-5 text-primary" />
+          <span className="font-semibold text-primary">{promotionsData.sorteo.fechaProxima}</span>
+        </div>
+      ) : null,
+    },
+    {
+      icon: Percent,
       title: "Programa de Referidos",
-      description: "Recomienda XtremeKey y gana créditos para tu próxima compra. ¡Sin límites!",
+      description: "Recomienda XtremeKey a tus amigos y obtén descuentos en tus futuras compras. ¡Sin límites!",
       badge: "Permanente",
       color: "from-primary/80 to-accent/80",
+      buttonText: "Reclamar Descuento",
+      action: () => handleWhatsApp("Hola! Quiero reclamar mi descuento por referir amigos"),
     },
   ]
 
@@ -58,11 +79,13 @@ export function PromotionsSection() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">{promo.title}</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">{promo.description}</p>
+                {promo.extraContent}
                 <Button
                   variant="outline"
+                  onClick={promo.action}
                   className="w-full border-2 hover:bg-primary hover:text-primary-foreground hover:border-primary bg-transparent"
                 >
-                  Ver Detalles
+                  {promo.buttonText}
                 </Button>
               </div>
             </Card>
