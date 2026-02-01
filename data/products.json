@@ -69,7 +69,7 @@
           "description": "Acceso a ChatGPT Plus con GPT-4 y todas las funciones avanzadas de inteligencia artificial.",
           "duration": "1 Mes",
           "price": 6,
-          "image": "/placeholder-logo.png",
+          "image": "./placeholder-logo.png",
           "popular": true
         },
         {
@@ -78,14 +78,14 @@
           "description": "Acceso completo a Google Gemini Pro con capacidades avanzadas de IA y análisis.",
           "duration": "1 Año",
           "price": 0,
-          "image": "/placeholder-logo.png",
+          "image": "./placeholder-logo.png",
           "popular": false
         },
         {
           "id": "perplexity-pro",
           "name": "Perplexity Pro",
           "description": "Motor de búsqueda con IA para respuestas precisas y verificadas.",
-          "image": "/placeholder-logo.png",
+          "image": "./placeholder-logo.png",
           "popular": false,
           "pricing": [
             { "duration": "1 Mes", "price": 3 },
@@ -120,7 +120,7 @@
           "description": "Editor de video intuitivo con más de 2000 créditos de IA para Windows y Mac.",
           "duration": "Lifetime",
           "price": 30,
-          "image": "/placeholder-logo.png",
+          "image": "./placeholder-logo.png",
           "popular": false
         }
       ]
@@ -137,7 +137,7 @@
           "description": "Herramienta de diseño gráfico con plantillas premium, elementos y funciones avanzadas.",
           "duration": "1 Año",
           "price": 4,
-          "image": "/canva-pro-logo.png",
+          "image": "./canva-pro-logo.png",
           "popular": true
         },
         {
@@ -146,7 +146,7 @@
           "description": "Suite técnica de diseño profesional para Windows con licencia permanente.",
           "duration": "Lifetime",
           "price": 20,
-          "image": "/coreldraw-logo.jpg",
+          "image": "./coreldraw-logo.jpg",
           "popular": false
         },
         {
@@ -155,7 +155,7 @@
           "description": "Suite gráfica profesional para Mac con licencia permanente.",
           "duration": "Lifetime",
           "price": 20,
-          "image": "/coreldraw-logo.jpg",
+          "image": "./coreldraw-logo.jpg",
           "popular": false
         }
       ]
@@ -171,7 +171,7 @@
           "id": "autodesk-suite",
           "name": "Suite AutoDesk",
           "description": "Acceso completo a todas las aplicaciones de AutoDesk incluyendo AutoCAD, Revit, 3ds Max y más.",
-          "image": "/autodesk-autocad-logo.jpg",
+          "image": "./autodesk-autocad-logo.jpg",
           "popular": true,
           "pricing": [
             { "duration": "1 Año", "price": 15 },
@@ -184,7 +184,7 @@
           "description": "Licencia de una aplicación individual de AutoDesk a tu elección (AutoCAD, Revit, etc).",
           "duration": "1 Año",
           "price": 5,
-          "image": "/autodesk-autocad-logo.jpg",
+          "image": "./autodesk-autocad-logo.jpg",
           "popular": false
         }
       ]
@@ -201,7 +201,7 @@
           "description": "Suite completa con Word, Excel, PowerPoint, Outlook y 1TB de almacenamiento. La licencia se activa al correo personal.",
           "duration": "1 Año",
           "price": 12,
-          "image": "/microsoft-office-365-logo.png",
+          "image": "./microsoft-office-365-logo.png",
           "popular": true
         }
       ]
@@ -217,7 +217,7 @@
           "id": "freepik-panel",
           "name": "Freepik Premium",
           "description": "Panel exclusivo con 30 descargas por día. Vectores, fotos, PSD y recursos gráficos de alta calidad.",
-          "image": "/freepik-premium-logo.jpg",
+          "image": "./freepik-premium-logo.jpg",
           "popular": true,
           "pricing": [
             { "duration": "1 Mes", "price": 6 },
@@ -230,7 +230,7 @@
           "id": "envato-panel",
           "name": "Envato Elements",
           "description": "Panel exclusivo con 300 descargas por día. Millones de recursos: plantillas, fotos, videos, música y más.",
-          "image": "/envato-elements-logo.jpg",
+          "image": "./envato-elements-logo.jpg",
           "popular": true,
           "pricing": [
             { "duration": "1 Mes", "price": 6 },
@@ -243,7 +243,7 @@
           "id": "motionarray-panel",
           "name": "Motion Array Premium",
           "description": "Panel exclusivo con 50 descargas por día. Videos, plantillas, música y efectos para edición profesional.",
-          "image": "/placeholder-logo.png",
+          "image": "./placeholder-logo.png",
           "popular": true,
           "pricing": [
             { "duration": "1 Mes", "price": 6 }
