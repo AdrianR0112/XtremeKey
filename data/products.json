@@ -11,7 +11,7 @@
           "id": "adobe-directo",
           "name": "Adobe CC 2026 Directo",
           "description": "100GB almacenamiento, 4000 créditos IA/mes. Pago directo en plataforma oficial. La suscripción mas estable.",
-          "image": "/adobe-creative-cloud-logo.png",
+          "image": "./adobe-creative-cloud-logo.png",
           "popular": false,
           "pricing": [
             { "duration": "3 Meses", "price": 26 },
@@ -23,7 +23,7 @@
           "id": "adobe-premium",
           "name": "Adobe CC 2026 Premium",
           "description": "1TB almacenamiento, 4000 créditos IA/mes. Los perfiles se reemplazan cada 2-5 meses, funcionamiento poco afectado. Pregunte por el obsequio de primera compra.",
-          "image": "/adobe-creative-cloud-logo.png",
+          "image": "./adobe-creative-cloud-logo.png",
           "popular": true,
           "pricing": [
             { "duration": "1 Mes", "price": 10 },
@@ -36,7 +36,7 @@
           "id": "adobe-economico",
           "name": "Adobe CC 2026 Económico",
           "description": "100GB almacenamiento, 1500 créditos IA/mes, Adobe Stock incluido. Los perfiles se reemplazan cada 20 días, funcionamiento poco afectado.",
-          "image": "/adobe-creative-cloud-logo.png",
+          "image": "./adobe-creative-cloud-logo.png",
           "popular": false,
           "pricing": [
             { "duration": "1 Mes", "price": 6 },
@@ -51,7 +51,7 @@
           "description": "Licencia de una aplicación individual de Adobe a tu elección (Photoshop, Illustrator, Premiere Pro, etc).",
           "duration": "1 Mes",
           "price": 4,
-          "image": "/adobe-creative-cloud-logo.png",
+          "image": "./adobe-creative-cloud-logo.png",
           "popular": false
         }
       ]
@@ -105,7 +105,7 @@
           "id": "capcut-pro",
           "name": "CapCut PRO",
           "description": "Cuenta original, sin APKs ni cracks. Editor de video profesional con efectos avanzados, transiciones y herramientas de IA. Disponible para Android, iOS, Mac y Windows.",
-          "image": "/capcut-pro-logo.jpg",
+          "image": "./capcut-pro-logo.jpg",
           "popular": true,
           "pricing": [
             { "duration": "1 Mes", "price": 4.5 },

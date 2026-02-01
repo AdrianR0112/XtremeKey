@@ -29,7 +29,7 @@ export function ContactSection() {
                 <Button
                   variant="outline"
                   className="border-2 bg-transparent w-full"
-                  onClick={() => window.open("https://wa.me/593992706565?text=" + encodeURIComponent("Hola, quisiera tener mas informacion sobre las licencias que venden"), "_blank")}
+                  onClick={() => window.open("https://wa.me/593992706565?text=" + encodeURIComponent("Hola! Necesito información sobre las licencias"), "_blank")}
                 >
                   Abrir WhatsApp
                 </Button>
@@ -55,7 +55,7 @@ export function ContactSection() {
               </div>
             </div>
           </Card>
-          
+
           <Card className="p-6 bg-card border-2 hover:border-primary/50 transition-colors">
             <div className="flex flex-col items-center text-center gap-4">
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
